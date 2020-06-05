@@ -4,27 +4,30 @@ Simple clone of Vinted using Vue.js and Express.js
 
 ## Domain objects
 
-User
-    * Name
-    * Password
-    * ProfilePic
-    * BankNumber
-    * Address
-    * Country
-    * Gender
-    * NightMode
+### User
 
-Product
-    * Name
-    * Picture
-    * Brand
-    * LikesNumber
-    * User
-    * Category
+* Name
+* Password
+* ProfilePic
+* BankNumber
+* Address
+* Country
+* Gender
+* NightMode
 
-Category
-    * Icon
-    * Name
+### Product
+
+* Name
+* Picture
+* Brand
+* LikesNumber
+* User
+* Category
+
+### Category
+
+* Icon
+* Name
 
 ## Pages
 
