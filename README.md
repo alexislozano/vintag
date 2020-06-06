@@ -8,33 +8,33 @@ Warning : This project was created to explain front-end development, do not use 
 
 ### User
 
-* Name
-* Password
-* ProfilePic
-* BankNumber
-* Address
-* Country
-* Gender
-* NightMode
+* **name**: string
+* password: string
+* profile_pic: string
+* bank_number: string
+* address: string
+* country: string
+* gender: string
+* night_mode: bool
 
 ### Product
 
-* Name
-* Picture
-* Brand
-* LikesNumber
-* User
-* Category
+* **name**: string
+* picture: string
+* brand: string
+* *user_name*
+* *category_name*
 
 ### Category
 
-* Icon
-* Name
+* **name**: string
+* icon: string
 
 ### Like
 
-* User
-* Product
+* **id**: int
+* *user_name*
+* *product_name*
 
 ## Pages
 
