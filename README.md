@@ -59,7 +59,6 @@ Warning : This project was created to explain front-end development, do not use 
 | --- | --- | --- |
 | POST | /auth/signin | {name: string, password: string} |
 | POST | /auth/signup | {name: string, password: string, profile_pic: string, bank_number: string, address: string, country: string, gender: string, night_mode: bool} |
-| GET | /products | |
 | GET | /products?search=:search:&category=:category_name: | |
 | GET | /categories | |
 | PUT | /users/:name: | {name: string, profile_pic: string, bank_number: string, address: string, country: string, gender: string, night_mode: bool} |
