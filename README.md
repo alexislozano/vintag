@@ -55,11 +55,13 @@ Warning : This project was created to explain front-end development, do not use 
 
 ## Routes
 
+| Command | Route | Input |
+| --- | --- | --- |
 | POST | /auth/signin | {name: string, password: string} |
 | POST | /auth/signup | {name: string, password: string, profile_pic: string, bank_number: string, address: string, country: string, gender: string, night_mode: bool} |
 | GET | /products | |
-| GET | /products?search=<search>&category=<category> | |
+| GET | /products?search=:search:&category=:category: | |
 | GET | /categories | |
-| PUT | /users/<id> | {name: string, profile_pic: string, bank_number: string, address: string, country: string, gender: string, night_mode: bool} |
+| PUT | /users/:id: | {name: string, profile_pic: string, bank_number: string, address: string, country: string, gender: string, night_mode: bool} |
 | POST | /likes | {user_id: int, product_id: int} | |
-| DELETE | /likes/<id> | |
+| DELETE | /likes/:id: | |
