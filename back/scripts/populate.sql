@@ -1,3 +1,5 @@
+PRAGMA foreign_keys = ON;
+
 CREATE TABLE users (
     name VARCHAR NOT NULL PRIMARY KEY,
     password VARCHAR NOT NULL,
