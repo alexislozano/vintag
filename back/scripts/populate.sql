@@ -121,14 +121,14 @@ INSERT INTO products (
     230,
     'https://images.vinted.net/thumbs/f800/00_05195_ktTKeeaxrCp8GMywiKcGXhKL.jpeg?1591279040-3099b78e7e53265a8b0b54e0a9a9fba5cb9402da',
     'Adidas',
-    'Mirko Larsen',
+    'Mirko Laue',
     'Shoes'
 ), (
     'Calvin Klein',
     74,
     'https://images.vinted.net/thumbs/f800/00_05242_F6SA2ZBA97WCHKUJ35yhHjAJ.jpeg?1591048276-d212ea0aed2efaaab7b980e463853cd6d819c43e',
     'Clavin Klein',
-    'Mirko Larsen',
+    'Mirko Laue',
     'Shoes'
 ), (
     'Magnifique porte monnaie Louis Vuitton',
